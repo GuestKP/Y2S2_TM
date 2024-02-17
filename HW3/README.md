@@ -4,9 +4,6 @@ Kuklin Pavel, B22-RO-01
 ### Tools
 Google Colab, Python (manim, numpy, sympy, matplotlib libraries); Github, Markdown.
 
-
-### [Simulation link]
-
 ## Task 1
 
 ### Task description
@@ -55,3 +52,21 @@ $$ a_M = \sqrt{a_{Mx}^2 + a_{My}^2} \approx 29.56$$
 ### Answer
 
 Absolute velocity of M is $31.67$, coriolis acceleration of M is 0, absolute acceleration of M is $29.56$.
+
+## Task 2
+
+### Task description
+![](/HW3/task2_description.png)
+
+### [Simulation link](https://colab.research.google.com/drive/1VfeQQUSoH-hjsXze-pNiW3Emmm00yzDL?usp=sharing)
+Note: vectors are scaled by different factors.
+
+### Task explanation
+
+no way
+
+### Plots
+![](/HW3/task2_plots.png)
+
+### Simulation screenshots
+![](/HW3/task2_ss.png)
