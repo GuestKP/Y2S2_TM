@@ -1,18 +1,18 @@
 # Homework 3 Report
 Kuklin Pavel, B22-RO-01
 
-### Tools:
+### Tools
 Google Colab, Python (manim, numpy, sympy, matplotlib libraries); Github, Markdown.
 
 
-### Simulation: [link]
+### [Simulation link]
 
 ## Task 1
 
-### Task description:
+### Task description
 ![](/HW3/task1_description.png)
 
-### Task explanation:
+### Task explanation
 
 **Body D is in translatry motion**: $\vec{O_1A} = \vec{O_2B}$ (they have same magnitude $R$ and angle $\phi$), then $\vec{AB} = - \vec{O_1A} + \vec{O_1O_2} + \vec{O_2B} = \vec{O_1O_2} = const$.
 
@@ -52,6 +52,6 @@ Then
 
 $$ a_M = \sqrt{a_{Mx}^2 + a_{My}^2} \approx 29.56$$
 
-### Answer:
+### Answer
 
 Absolute velocity of M is $31.67$, coriolis acceleration of M is 0, absolute acceleration of M is $29.56$.
