@@ -1,4 +1,4 @@
-# Big Homework 4 Report
+# Big Homework 1 Report
 Kuklin Pavel, B22-RO-01
 
 ### Tools
@@ -30,7 +30,7 @@ We can find new $v$ based on previous $v_{prev}$, $s'$ and constant $a^t_{max}$ 
 
 Combine parts of speed graph.
 
-Find $t(x)$ by numerically integrating $dt = \frac{ds}{v}$.
+Find $t(x)$ by numerically integrating $dt = \frac{ds}{v}$. Total simulation time is approximately $5.35$
 
 Combine t(x) and other values(x) to obtain plots for values(t).
 
