@@ -63,10 +63,36 @@ Note: vectors are scaled by different factors.
 
 ### Task explanation
 
-no way
+**Positions:**
+
+$O = [acos\phi_e, asin\phi_e]$ - rotates around $O_1$ at radius $a$ with angle law $\phi_e(t)$.
+
+$B = [-asin\phi_e, acos\phi_e]$ - third point of big triangle: rotates around $O_1$ at radius $a$ with angle law $\frac{\pi}{2} + \phi_e(t)$.
+
+$M = O + \frac{OM}{|\vec{OB}|}\vec{OB}$ - point along $\vec{OB}$ with distance law OM.
+
+**Velocities:**
+
+$\vec{V^{rel}_M} = \frac{d(OM)}{dt} \frac{\vec{OB}}{|\vec{OB}|}$ - as M moves in straight line, speed is aligned with $\vec{OB}$ and has magnitude of distance derivative.
+
+$\vec{V^{tr}_M} = [0, 0, \frac{d\phi_e}{dt}] \times \vec{OM}$ - equal to speed of rotation of point $M$ around $O_1$ with angular speed $\omega_e = \frac{d\phi_e}{dt}$.
+
+**Accelerations:**
+
+$\vec{a^{rel}_M} = \frac{d^2(OM)}{dt^2} \frac{\vec{OB}}{|\vec{OB}|}$ - as M moves in straight line, relative acceleration has only tangent part aligned  with $\vec{OB}$ and magnitude equal to derivative of relative speed.
+
+$\vec{a^{tr}_M} = a^{tr \tau}_M + a^{tr n}_M$, where
+
+$\vec{a^{tr \tau}_M} = [0, 0, \frac{d^2\phi_e}{dt^2}] \times \vec{OM}$ - rotation of point $M$ around $O_1$ with angular acceleration $\epsilon_e = \frac{d\omega_e}{dt}$;
+
+$\vec{a^{tr n}_M} = -\vec{OM} + (\frac{d\phi_e}{dt})^2$.
+
+$\vec{a^{cor}_M} = [0, 0, \frac{d\phi_e}{dt}] \times \vec{V^{rel}_M}$.
+
+$\vec{a} = \vec{a^{cor}_M} + \vec{a^{tr}_M} + \vec{a^{rel}_M}$.
 
 ### Plots
-![](/HW3/task2_plots.png)
+![](task2_plots.png)
 
 ### Simulation screenshots
-![](/HW3/task2_ss.png)
+![](task2_ss.png)
