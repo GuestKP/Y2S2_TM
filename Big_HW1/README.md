@@ -1,4 +1,4 @@
-# Homework 3 Report
+# Big Homework 4 Report
 Kuklin Pavel, B22-RO-01
 
 ### Tools
@@ -20,7 +20,7 @@ From v(x) find:
 - Tangent circle radius as $$R = \frac{\sqrt{1 + v'(x)^2}}{|(\frac{d}{dt}\vec{T})|}$$ where $\vec{T} = \frac{1}{\sqrt{1 + v'(x)^2}} [1; v'(x)]^T$ - unit-vector of speed.
 
 - Speed bound by $R$ and $a^n_{max}$ as $v_{bound} = \sqrt{a^n_{max}R}$
-- Tangent speed bound by $R$ and $a^n_{max}$ as $a^t_{bound} = \frac{dv}{dt} = \frac{vdv}{ds} = \frac{v_{bound}\ v_{bound}'}{s'}$
+- Tangent speed bound by $R$ and $a^n_{max}$ as $$ a^t_{bound} = \frac{dv}{dt} = \frac{vdv}{ds} = \frac{v_{bound}\ v_{bound}'}{s'} $$
 
 See graphs: interval $[B, C]$ can be followed by $v_{bound}$. Intervals $[A, B]$ and $[C, D]$ should be followed with constant max deceleration/acceleration.
 
@@ -38,7 +38,7 @@ Simulate by plots.
 
 ### Plots
 
-Plot of $a^t(t)$ has two spikes due to concatenation of point arrays and numerical error. 
+Plot of $a^t(t)$ has two spikes due to concatenation of point arrays and numerical errors. 
 
 ![](task1_plots.png)
 
