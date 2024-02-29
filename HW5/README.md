@@ -31,9 +31,9 @@ $\vec{F_g} = m\vec{g}$
 
 $m\vec{a} = \vec{F_g}$
 
-Here, axis $x$: $ ma_x = 0;\ \ddot x = 0;\ \dot x = C_1 = v_0cos\alpha;\ x = v_0tcos\alpha $.
+Here, axis $x$: $ma_x = 0$; $\ddot x = 0$; $\dot x = C_1 = v_0cos\alpha$; $x = v_0tcos\alpha$.
 
-Axis $y$: $ ma_y = -mg;\ \ddot y = -g;\ \dot y = -gt + C_1;$ from initial conditions, $C_1 = v_0sin\alpha;\ y = \frac{-gt^2}{2} + v_0tsin\alpha + C_2;$ from initial conditions, $C_2 = 0$.
+Axis $y$: $ma_y = -mg$; $\ddot y = -g$; $\dot y = -gt + C_1$; from initial conditions, $C_1 = v_0sin\alpha;\ y = \frac{-gt^2}{2} + v_0tsin\alpha + C_2;$ from initial conditions, $C_2 = 0$.
 
 Therefore, fromn condition 1: 
 $v_0tcos\alpha = L$ and $\frac{-gt^2}{2} + v_0tsin\alpha = 0;$
@@ -55,12 +55,9 @@ Here, $\vec{X}$ is used to denote position of bullet; $\vec{X} = \begin{pmatrix}
 
 $m \ddot{\vec{X}} = -k|\dot{\vec{X}}|\dot{\vec{X}} + m\vec{g}$. Then
 
-$ \begin{pmatrix} \dot{\vec{X}} \\ \ddot{\vec{X}} \end{pmatrix} = 
-\begin{pmatrix} 0 & I \\ 0 & -k|\dot{\vec{X}}|\end{pmatrix}
-\begin{pmatrix} \vec{X} \\ \dot{\vec{X}} \end{pmatrix} + 
-\begin{pmatrix} 0 \\ m\vec{g} \end{pmatrix} $
+![](task1_f1.png)
 
-Also, vector form of initial velocity is $ \vec{v_0} = \begin{pmatrix} cos\alpha \\ sin\alpha \end{pmatrix} v_0 $.
+Also, vector form of initial velocity is $ \vec{v_0} = [cos\alpha \ sin\alpha] v_0 $.
 
 Numerically integrating DE described above until $y = 0$ gives us $x$ - distance, travelled by bullet until hitting ground.
 
