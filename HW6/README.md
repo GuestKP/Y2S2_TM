@@ -30,9 +30,9 @@ $$\vec{F_{g1}} + \vec{F_{g2}} + \vec{F_{g3}} + \vec{F_N} = m\vec{a_c}$$
 
 Force projection on $x$: $0 = m\vec{a_c} = m\vec{\ddot x_c} $.
 
-Then by integration obtain $\vec{\dot x_c} = 0$and $x_c = x_0$.
+Then by integration obtain $\vec{\dot x_c} = 0$ and $x_c = x_0$.
 
-Assume in condition 1, body $ABCD$moved by $\Delta$along $x$; then
+Assume in condition 1, body $ABCD$ moved by $\Delta$ along $x$; then
 
 $x_{11} = x_1 + \Delta; $
 
