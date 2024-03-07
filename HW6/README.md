@@ -11,7 +11,7 @@ Github, Markdown.
 
 ### Task explanation
 
-**R. O.:** system of weights $M_1$, $M_2$, $M_3$and body $ABCD$with mass $M_4 = 100\ kg$.
+**R. O.:** system of weights $M_1$, $M_2$, $M_3$ and body $ABCD$ with mass $M_4 = 100\ kg$.
 
 **Conditions:**
 
@@ -71,11 +71,11 @@ $$\Delta = -\frac{M_2 + 0.5M_3}{M_1 + M_2 + M_3 + M_4} \approx -0.14. $$
 **Conditions:**
 
 0. $t_0 = 0, v_{A0} = 0, v_{B0} = 0, \omega_{c0} = 0$
-1. relative speed $A$to rope - $a$, all other unknown
+1. relative speed $A$ to rope - $a$, all other unknown
 
 **Kinematics:**
 
-let $v_{B1} = v$, then $\omega_{c1} = \frac{v}{r}$and $v_{A1} = (a-v)$.
+let $v_{B1} = v$, then $\omega_{c1} = \frac{v}{r}$ and $v_{A1} = (a-v)$.
 
 $M_A = -r(mv_{A1}) $,
 
