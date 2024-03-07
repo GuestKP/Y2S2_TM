@@ -38,7 +38,7 @@ Axis $y$: $ma_y = -mg$; $\ddot y = -g$; $\dot y = -gt + C_1$; from initial condi
 Therefore, fromn condition 1: 
 $v_0tcos\alpha = L$ and $\frac{-gt^2}{2} + v_0tsin\alpha = 0;$
 
-Solving these equations (sympy is used), **we obtain two angles**: $ \approx 0.56^o$ and $ \approx 89.44^o$ **with maximum height**$ \approx 3.69$ and $ \approx 38613.66$.
+Solving these equations (sympy is used), **we obtain two angles**: $\approx 0.56^o$ and $\approx 89.44^o$ **with maximum height** $\approx 3.69$ and $\approx 38613.66$.
 
 
 **2. With friction:**
@@ -51,13 +51,13 @@ $\vec{F_{fr}} = -kv\vec{v};\ \vec{F_g} = m\vec{g}$
 
 $m\vec{a} = \vec{F_{fr}} + \vec{F_g}$
 
-Here, $\vec{X}$ is used to denote position of bullet; $\vec{X} = \begin{pmatrix} x \\ y \end{pmatrix}$;
+Here, $\vec{X}$ is used to denote position of bullet; $\vec{X} = [x \ y]^T$;
 
 $m \ddot{\vec{X}} = -k|\dot{\vec{X}}|\dot{\vec{X}} + m\vec{g}$. Then
 
 ![](task1_f1.png)
 
-Also, vector form of initial velocity is $ \vec{v_0} = [cos\alpha \ sin\alpha] v_0 $.
+Also, vector form of initial velocity is $\vec{v_0} = [cos\alpha \ sin\alpha]^T v_0 $.
 
 Numerically integrating DE described above until $y = 0$ gives us $x$ - distance, travelled by bullet until hitting ground.
 
