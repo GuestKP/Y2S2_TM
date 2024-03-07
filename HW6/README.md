@@ -15,14 +15,7 @@ Github, Markdown.
 
 **Conditions:**
 
-0. $t_0 = 0,\
-x_{c0} = x_0,\
-\vec{\dot x_{c0}} = 0; \\
-x_{10} = x_1,\
-y_{10} = y_1,\
-x_{20} = x_2,\
-x_{30} = x_3,\
-x_{40} = x_4; $
+0. $t_0 = 0, x_{c0} = x_0, \vec{\dot x_{c0}} = 0; x_{10} = x_1, y_{10} = y_1, x_{20} = x_2, x_{30} = x_3, x_{40} = x_4; $
 1. $y_{11} = y_1 - 1$, all else unknown.
 
 **Force analysis:**
@@ -60,7 +53,7 @@ $$0 = M_1\Delta + M_2\Delta + M_2 + M_3\Delta + 0.5M_3 + M_4\Delta $$
 
 $$\Delta = -\frac{M_2 + 0.5M_3}{M_1 + M_2 + M_3 + M_4} \approx -0.14. $$
 
-**Answer:** body will move by $0.14\ m$to the left.
+**Answer:** body will move by $0.14\ m$ to the left.
 
 ## Task 2
 
@@ -77,10 +70,7 @@ $$\Delta = -\frac{M_2 + 0.5M_3}{M_1 + M_2 + M_3 + M_4} \approx -0.14. $$
 
 **Conditions:**
 
-0. $t_0 = 0,\
-v_{A0} = 0,\
-v_{B0} = 0,\
-\omega_{c0} = 0$
+0. $t_0 = 0, v_{A0} = 0, v_{B0} = 0, \omega_{c0} = 0$
 1. relative speed $A$to rope - $a$, all other unknown
 
 **Kinematics:**
