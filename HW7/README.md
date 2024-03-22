@@ -1,4 +1,4 @@
-# Homework 6 Report
+# Homework 7 Report
 Kuklin Pavel, B22-RO-01
 
 ### Tools
